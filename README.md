@@ -12,11 +12,11 @@ To compile the library, you can use the following commands:
 
 To include the libft library in your project and use it in your code, follow these steps:
 
-    Compile the libft library using the provided Makefile. This will generate the libft.a file.
-    Place the libft.a file in a directory of your choice, for example, lib.
-    In your project directory, create a directory called include if it doesn't already exist.
-    Copy the header files from the libft library into the include directory. These header files typically have a .h extension, such as libft.h.
-    In your source code files where you want to use the libft library functions, include the corresponding header file using the following directive:
+-Compile the libft library using the provided Makefile. This will generate the libft.a file.
+-Place the libft.a file in a directory of your choice, for example, lib.
+-In your project directory, create a directory called include if it doesn't already exist.
+-Copy the header files from the libft library into the include directory. These header files typically have a .h extension, such as libft.h.
+-In your source code files where you want to use the libft library functions, include the corresponding header file using the following directive:
 
     #include "libft.h"
 
