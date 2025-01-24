@@ -12,17 +12,17 @@ To compile the library, you can use the following commands:
 
 To include the libft library in your project and use it in your code, follow these steps:
 
-    * Compile the libft library using the provided Makefile. This will generate the libft.a file.
-    * Place the libft.a file in a directory of your choice, for example, lib.
-    * In your project directory, create a directory called include if it doesn't already exist.
-    * Copy the header files from the libft library into the include directory. These header files typically have a .h extension, such as libft.h.
-    * In your source code files where you want to use the libft library functions, include the corresponding header file using the following directive:
+    Compile the libft library using the provided Makefile. This will generate the libft.a file.
+    Place the libft.a file in a directory of your choice, for example, lib.
+    In your project directory, create a directory called include if it doesn't already exist.
+    Copy the header files from the libft library into the include directory. These header files typically have a .h extension, such as libft.h.
+    In your source code files where you want to use the libft library functions, include the corresponding header file using the following directive:
 
-#include "libft.h"
+    #include "libft.h"
 
 During compilation, you need to link your project with the libft library. Add the following flag to your compilation command:
 
--L/path/to/lib -lft
+    -L/path/to/lib -lft
 Replace /path/to/lib with the actual path to the directory where you placed the libft.a file.
 
 For example, if you placed the libft.a file in a directory called lib inside your project directory, the compilation command would look like this:
@@ -32,7 +32,7 @@ Now you can use the functions provided by the libft library in your code.
 
 For example, if you want to use the strlen function from the library, you can call it like this:
 
-size_t length = ft_strlen("Hello, world!");
+    size_t length = ft_strlen("Hello, world!");
 
 Make sure to prefix the library functions with ft_ to differentiate them from standard library functions.
 
@@ -42,5 +42,5 @@ Default Compilation Flags
 
 The Makefile uses the following compilation flags:
 
-    -Wall -Wextra -Werror - Enables additional warnings and treats warnings as errors.
-    -I. - Specifies the include directory for header files.
+        -Wall -Wextra -Werror - Enables additional warnings and treats warnings as errors.
+        -I. - Specifies the include directory for header files.
